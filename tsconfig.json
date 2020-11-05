@@ -6,19 +6,30 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "allowJs": true,//允许编译javascript文件
+    "alwaysStrict": true,//以严格模式解析并为每个源文件生成 "use strict"语句
+    "extendedDiagnostics": true, //显示详细的诊段信息
+    "forceConsistentCasingInFileNames": true, //禁止对同一个文件的不一致的引用
+    "inlineSourceMap": true, //生成单个sourcemaps文件，而不是将每sourcemaps生成不同的文件
+    "inlineSources": true, //将代码与sourcemaps生成到一个文件中
+    "noEmitOnError": true, //报错时不生成输出文件
+    "noFallthroughCasesInSwitch": true, //报告switch语句的fallthrough错误
+    "noImplicitReturns": true,
+    "noUnusedLocals": true, //若有未使用的局部变量则抛错
+    "noUnusedParameters": true, //若有未使用的参数则抛错
+    "preserveSymlinks": true,
+    "removeComments": true, //删除所有注释,
+    "strict": true, //启用所有严格类型检查选项
+    "experimentalDecorators": true
   },
   "include": [
     "src"
