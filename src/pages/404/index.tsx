@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 export default function NoMacth() {
-    return <div style={{color:'red'}}>404！！！</div>
+	return <div style={{color: 'red'}}>404！！！</div>;
 }
