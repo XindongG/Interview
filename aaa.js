@@ -14,7 +14,7 @@ const twoSum = function (nums, target) {
 		i++;
 	}
 };
-console.log(twoSum([ 100, 200, 5, 300, 1], 6));
+// console.log(twoSum([ 100, 200, 5, 300, 1], 6));
 /**
  *@desc: 无重复字符的最长子串
  *@author: XinD
